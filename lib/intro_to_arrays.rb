@@ -1,6 +1,9 @@
-instantiate_new_array = []
+def instantiate_new_array
+  return array.new
+end
 
-array_with_two_elements = [10, 20]
+def array_with_two_elements
+  return = [10, 20]
 
 def first_element(array)
   return array[0]
